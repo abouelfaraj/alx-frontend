@@ -169,9 +169,9 @@ ul.row {
 }
 
 .card-testimonial .card-avatar {
-	border-radius: 50%;
-	width: 10px;
-	height: 10px;
+	border-radius: 50% 50% 50% 50%;
+	width: 10rem;
+	height: 10rem;
 }
 
 .card-testimonial .card-quote city {
