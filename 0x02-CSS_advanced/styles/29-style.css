@@ -228,9 +228,8 @@ ul.row {
 	padding: 0.5rem 1rem;
 }
 
-.nav .nav-link {
-        display: block;
-        padding: 0.5rem 1rem;
+.nav .nav-link:hover {
+        color:var(--nav-item-link-hover);
 }
 
 .nav .nav-link::before {
@@ -240,7 +239,7 @@ ul.row {
 	left: 0;
 	background-color: var(--color-white);
 	width: 0;
-	height: 20%;
+	height: 0.2rem;
 }
 
 .nav .nav-item:hover > .nav-link::before {
