@@ -243,7 +243,7 @@ ul.row {
 	height: 20%;
 }
 
-.nav .nav-link .nav-item::before {
+.nav .nav-item:hover > .nav-link::before {
         background-color: var(--color-primary);
         height: 100%;
 }
